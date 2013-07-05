@@ -1,0 +1,90 @@
+/**
+ * @file
+ * Views Styling
+ */
+
+@import "base";
+
+
+/*
+ * Views' admin tabs
+ *
+ * The views admin tabs use the same classes as the secondary tabs. We prevent
+ * some of our tab styling from bleeding into (and breaking) the Views admin
+ * pages. If your sub-theme isn't used for admin pages, you can remove this
+ * entire section.
+ */
+.views-displays .secondary {
+  li {
+    float: none;
+    margin: 0 6px 0;
+  }
+
+  a:link,
+  a:visited {
+    @include single-text-shadow(none);
+    padding: 2px 7px 3px;
+  }
+
+  .open > a {
+    @include border-radius(7px 7px 0 0);
+    &:hover {
+      color: #333;
+    }
+  }
+
+  .action-list li {
+    margin: 0;
+    &:first-child {
+      @include border-radius(0 7px 0 0);
+    }
+    &:last-child {
+      @include border-radius(0 0 7px 7px);
+    }
+  }
+}
+
+.views_slideshow_cycle_main {
+  width: 100%;
+  float: left;
+}
+.views_slideshow_cycle_main .views-slideshow-cycle-main-frame {
+  width: 100% !important;
+  height: auto;
+}
+.views_slideshow_cycle_main .views-slideshow-cycle-main-frame-row {
+  width: 100% !important;
+  height: auto;
+}
+.views_slideshow_cycle_main .field-content {
+  max-width: 100%;
+  width: 100%;
+}
+.views_slideshow_cycle_main .field-content img {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+}
+
+#block-views-frontpage-slideshow-block {
+  .views_slideshow_slide {    
+    .views-field-title, .views-field-body {
+      clear: left;
+      float: left;
+      height: auto;
+    }
+
+    .views-field-field-image {
+      background: url("../images/img-shadow.png") no-repeat scroll center bottom #F4F4F4;
+      float: right;
+
+      img {
+        background: url("../images/img-shadow.png") no-repeat scroll center -7px #F4F4F4;
+        border: 2px solid #E4E4E4;
+        padding: 5px;
+      }
+    }
+  }
+}
