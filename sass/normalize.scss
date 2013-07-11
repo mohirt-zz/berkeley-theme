@@ -215,6 +215,7 @@ h2 {
   @include adjust-font-size-to( $h2-font-size );
   @include leader(1, $h2-font-size);
   @include trailer(1, $h2-font-size);
+  line-height: 1.2em;
 }
 
 h3 {

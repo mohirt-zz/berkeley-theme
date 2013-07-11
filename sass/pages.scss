@@ -17,9 +17,11 @@
 body {
   margin: 0;
   padding: 0;
+  font-family: 'News Cycle';
 }
 
 #page {
+  color: #3F3F3F;
 }
 
 /*
@@ -61,6 +63,8 @@ body {
   float: left;
   margin: 0;
   padding: 0;
+  background: #17405B;
+  width: 100%;
 
   img {
     vertical-align: bottom;
