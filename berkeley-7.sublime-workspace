@@ -31,7 +31,7 @@
 			"file": "sass/pages.scss",
 			"settings":
 			{
-				"buffer_size": 4761,
+				"buffer_size": 4963,
 				"line_ending": "Unix"
 			}
 		},
@@ -39,7 +39,7 @@
 			"file": "sass/layouts/responsive-sidebars.scss",
 			"settings":
 			{
-				"buffer_size": 5515,
+				"buffer_size": 5454,
 				"line_ending": "Unix"
 			}
 		},
@@ -47,7 +47,7 @@
 			"file": "sass/blocks.scss",
 			"settings":
 			{
-				"buffer_size": 2314,
+				"buffer_size": 3206,
 				"line_ending": "Unix"
 			}
 		},
@@ -55,7 +55,7 @@
 			"file": "sass/normalize.scss",
 			"settings":
 			{
-				"buffer_size": 14348,
+				"buffer_size": 14384,
 				"line_ending": "Unix"
 			}
 		},
@@ -240,7 +240,7 @@
 			"5px 5px 15px 5px",
 			"1px 1px 2px 0 #7D7D7D"
 		],
-		"reverse": true,
+		"reverse": false,
 		"show_context": true,
 		"use_buffer2": true,
 		"whole_word": false,
@@ -249,7 +249,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -257,15 +257,15 @@
 					"file": "sass/pages.scss",
 					"settings":
 					{
-						"buffer_size": 4761,
+						"buffer_size": 4963,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1004,
-								1004
+								4480,
+								4480
 							]
 						],
 						"settings":
@@ -275,7 +275,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 3691.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -285,15 +285,15 @@
 					"file": "sass/layouts/responsive-sidebars.scss",
 					"settings":
 					{
-						"buffer_size": 5515,
+						"buffer_size": 5454,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4997,
-								4997
+								4996,
+								4996
 							]
 						],
 						"settings":
@@ -303,7 +303,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 2589.0,
+						"translation.y": 2551.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -313,15 +313,15 @@
 					"file": "sass/blocks.scss",
 					"settings":
 					{
-						"buffer_size": 2314,
+						"buffer_size": 3206,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								443,
-								443
+								3130,
+								3130
 							]
 						],
 						"settings":
@@ -331,7 +331,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1525.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -341,15 +341,15 @@
 					"file": "sass/normalize.scss",
 					"settings":
 					{
-						"buffer_size": 14348,
+						"buffer_size": 14384,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								5825,
-								5825
+								4364,
+								4364
 							]
 						],
 						"settings":
@@ -359,7 +359,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 3056.0,
+						"translation.y": 2201.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -387,7 +387,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 442.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -415,7 +415,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 834.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

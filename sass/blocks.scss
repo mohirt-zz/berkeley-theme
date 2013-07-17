@@ -27,6 +27,10 @@
     font-weight: normal;
     margin-bottom: 1em;
   }
+
+  ul {
+    padding: 0 1em;
+  }
 }
 
 
@@ -109,4 +113,46 @@
 }
 
 #block-user-online { /* "Who's online" block for a list of the online users */
+}
+
+/*Islandora Blocks*/
+
+ul.islandora-solr-facet-pages-list {
+  padding: 0;
+  margin: 0.5em 0;
+  li {
+    list-style: none;
+    margin-bottom: 0.2em;
+      a {
+        background-color: #EDEDED;
+        border: 1px solid #DCDCDC;
+        border-radius: 4px 4px 4px 4px;
+        box-shadow: 0 -1px 0 0 #CCCCCC inset;
+        display: inline-block;
+        font-weight: bold;
+        line-height: 2.5em;
+        text-align: center;
+        text-decoration: none;
+        text-shadow: 1px 1px 0 #FFFFFF;
+        width: 99%;
+      }
+      a:hover {
+        background-color: #DFDFDF;
+        box-shadow: 0 -1px 0 0 #CCCCCC;
+      }
+  }
+}
+
+/* Islandora Search blocks */
+
+#islandora-solr-advanced-search-form {
+  .form-item {
+    display: inline !important; 
+  } 
+  .form-text {
+    width: 37%;
+  }
+  .islandora-solr-advanced-controls {
+    margin-top: 0.5em; 
+  }
 }

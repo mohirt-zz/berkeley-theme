@@ -252,15 +252,40 @@ span.field-label {
 /* line 216, ../sass/pages.scss */
 .item-list .pager li {
   /* Each page number in the pager list */
-  padding: 0 0.5em;
+  padding: 0 0.5em 0.2em;
 }
 
-/* line 221, ../sass/pages.scss */
+/* line 222, ../sass/pages.scss */
+ul.pager li.pager-current {
+  background: none repeat scroll 0 0 #ececec;
+  border: 1px solid #35425f;
+  color: #35425F;
+}
+
+/* line 229, ../sass/pages.scss */
+.not-front .item-list .pager {
+  position: relative;
+  top: -1.3em;
+  background: #F3F3F3;
+  border-bottom: 1px solid #e9f1ea;
+  border-top: 1px solid #e9f1ea;
+  padding: 0.5em 0;
+}
+
+/* line 237, ../sass/pages.scss */
+#islandora-solr-top {
+  float: left;
+  position: relative;
+  top: 1em;
+  z-index: 50;
+}
+
+/* line 244, ../sass/pages.scss */
 .feed-icon {
   /* The link to the RSS or Atom feed for the current list of content */
 }
 
-/* line 224, ../sass/pages.scss */
+/* line 247, ../sass/pages.scss */
 .more-link {
   /* Aggregator, blog, and forum more link */
 }
@@ -271,6 +296,25 @@ span.field-label {
  * Remember to NOT add padding or margin to your .region-sidebar-first
  * (see the layout.css file.)
  */
+/* line 257, ../sass/pages.scss */
+.sidebar {
+  border: 2px solid #e9f1ea;
+  background: #F3F3F3;
+}
+/* line 260, ../sass/pages.scss */
+.sidebar h2.block-title {
+  margin-top: 1em;
+  margin-bottom: 0;
+}
+/* line 264, ../sass/pages.scss */
+.sidebar ul {
+  padding: 0 0.5em;
+}
+/* line 266, ../sass/pages.scss */
+.sidebar ul li {
+  list-style: none;
+}
+
 /*
  * Second sidebar (on right in LTR languages, on left in RTL)
  *
@@ -283,7 +327,26 @@ span.field-label {
 /*
  * Page bottom
  */
-/* line 258, ../sass/pages.scss */
+/* line 296, ../sass/pages.scss */
 .region-bottom {
   /* Wrapper for any blocks placed in the page bottom region */
+}
+
+/*
+  * Some Islandora Styles
+*/
+/* line 303, ../sass/pages.scss */
+table.islandora-bookmark-solr-results tr {
+  box-shadow: 0 3px 3px -3px #808184;
+  -webkit-box-shadow: 0 3px 3px -3px #808184;
+  border: none;
+}
+/* line 307, ../sass/pages.scss */
+table.islandora-bookmark-solr-results tr td {
+  padding: 1em 0.5em;
+}
+/* line 310, ../sass/pages.scss */
+table.islandora-bookmark-solr-results tr th {
+  border: none;
+  padding: 0.5em;
 }

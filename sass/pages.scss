@@ -214,8 +214,31 @@ span.field-label { /* The inline field label used by the Fences module */
   padding: 0;
 
   li { /* Each page number in the pager list */
-    padding: 0 0.5em;
+    padding: 0 0.5em 0.2em;
   }
+}
+
+ul.pager {
+  li.pager-current {
+    background: none repeat scroll 0 0 #ececec;
+    border: 1px solid #35425F;
+    color: #35425F;
+  }
+}
+
+.not-front .item-list .pager {
+  position: relative;
+  top: -1.3em;
+  background: #F3F3F3;
+  border-bottom: 1px solid #E9F1EA;
+  border-top: 1px solid #E9F1EA;
+  padding: 0.5em 0;
+}
+#islandora-solr-top {
+  float: left;
+  position: relative;
+  top: 1em;
+  z-index: 50;
 }
 
 .feed-icon { /* The link to the RSS or Atom feed for the current list of content */
@@ -231,6 +254,21 @@ span.field-label { /* The inline field label used by the Fences module */
  * (see the layout.css file.)
  */
 
+.sidebar {
+    border: 2px solid #E9F1EA;
+    background: #F3F3F3;
+  h2.block-title {
+    margin-top: 1em;
+    margin-bottom: 0;
+  }
+  ul {
+    padding: 0 0.5em;
+    li {
+      list-style: none;
+    }
+  }
+}
+
 .region-sidebar-first {
 }
 
@@ -241,7 +279,7 @@ span.field-label { /* The inline field label used by the Fences module */
  * (see the layout.css file.)
  */
 
-.region-sidebar-second {
+.region-k-second {
 }
 
 /*
@@ -256,4 +294,22 @@ span.field-label { /* The inline field label used by the Fences module */
  */
 
 .region-bottom { /* Wrapper for any blocks placed in the page bottom region */
+}
+
+/*
+  * Some Islandora Styles
+*/
+table.islandora-bookmark-solr-results {
+  tr {
+    box-shadow: 0 3px 3px -3px #808184;
+    -webkit-box-shadow: 0 3px 3px -3px #808184;
+    border: none;
+    td {
+      padding: 1em 0.5em;
+    }
+    th {
+      border: none;
+      padding: 0.5em;
+    }
+  }
 }
