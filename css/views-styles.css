@@ -103,24 +103,26 @@
   background: url("../images/img-shadow.png") no-repeat scroll center bottom #f4f4f4;
   position: absolute;
   right: 0;
+  top: 0.5em;
+  width: 55%;
 }
-/* line 87, ../sass/views-styles.scss */
+/* line 88, ../sass/views-styles.scss */
 #block-views-frontpage-slideshow-block .views_slideshow_slide .views-field-field-image img {
   background: url("../images/img-shadow.png") no-repeat scroll center -7px #f4f4f4;
   border: 2px solid #e4e4e4;
   padding: 5px;
 }
-/* line 94, ../sass/views-styles.scss */
+/* line 95, ../sass/views-styles.scss */
 #block-views-frontpage-slideshow-block .views-slideshow-controls-bottom {
   position: relative;
-  top: 2em;
+  top: 4.7em;
 }
 
-/* line 101, ../sass/views-styles.scss */
+/* line 102, ../sass/views-styles.scss */
 #views_slideshow_cycle_main_frontpage_slideshow-block .views-field-title {
-  max-width: 36%;
+  max-width: 43%;
 }
-/* line 104, ../sass/views-styles.scss */
+/* line 105, ../sass/views-styles.scss */
 #views_slideshow_cycle_main_frontpage_slideshow-block .views-field-body {
-  max-width: 36%;
+  max-width: 43%;
 }

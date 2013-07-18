@@ -31,7 +31,7 @@
 			"file": "sass/pages.scss",
 			"settings":
 			{
-				"buffer_size": 4963,
+				"buffer_size": 5667,
 				"line_ending": "Unix"
 			}
 		},
@@ -39,7 +39,7 @@
 			"file": "sass/layouts/responsive-sidebars.scss",
 			"settings":
 			{
-				"buffer_size": 5454,
+				"buffer_size": 5620,
 				"line_ending": "Unix"
 			}
 		},
@@ -47,7 +47,7 @@
 			"file": "sass/blocks.scss",
 			"settings":
 			{
-				"buffer_size": 3206,
+				"buffer_size": 3204,
 				"line_ending": "Unix"
 			}
 		},
@@ -175,6 +175,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"table",
+			"pager",
+			"20%",
 			"News",
 			"Baskerville",
 			"linear",
@@ -257,15 +260,15 @@
 					"file": "sass/pages.scss",
 					"settings":
 					{
-						"buffer_size": 4963,
+						"buffer_size": 5667,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4480,
-								4480
+								5456,
+								5456
 							]
 						],
 						"settings":
@@ -275,7 +278,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 3691.0,
+						"translation.y": 4470.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -285,15 +288,15 @@
 					"file": "sass/layouts/responsive-sidebars.scss",
 					"settings":
 					{
-						"buffer_size": 5454,
+						"buffer_size": 5620,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4996,
-								4996
+								5093,
+								5093
 							]
 						],
 						"settings":
@@ -303,7 +306,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 2551.0,
+						"translation.y": 2665.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -313,15 +316,15 @@
 					"file": "sass/blocks.scss",
 					"settings":
 					{
-						"buffer_size": 3206,
+						"buffer_size": 3204,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3130,
-								3130
+								3204,
+								3204
 							]
 						],
 						"settings":
@@ -331,7 +334,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1525.0,
+						"translation.y": 1487.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -387,7 +390,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 511.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
