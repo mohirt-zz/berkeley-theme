@@ -72,7 +72,7 @@
 
   /* line 86, ../../sass/layouts/responsive-sidebars.scss */
   .front #main {
-    margin-top: 5em;
+    margin-top: 8em;
   }
 
   /* line 90, ../../sass/layouts/responsive-sidebars.scss */
@@ -271,5 +271,53 @@
     width: 20%;
     margin-left: 80%;
     margin-right: -100%;
+  }
+}
+@media all and (max-width: 840px) {
+  /* line 237, ../../sass/layouts/responsive-sidebars.scss */
+  #block-views-frontpage-slideshow-block {
+    font-size: 90%;
+  }
+  /* line 239, ../../sass/layouts/responsive-sidebars.scss */
+  #block-views-frontpage-slideshow-block .views-slideshow-controls-bottom {
+    top: 2em !important;
+  }
+
+  /* line 244, ../../sass/layouts/responsive-sidebars.scss */
+  #head-back {
+    height: 25em !important;
+  }
+
+  /* line 247, ../../sass/layouts/responsive-sidebars.scss */
+  .front #main {
+    margin-top: 5em;
+  }
+}
+@media all and (max-width: 945px) {
+  /* line 253, ../../sass/layouts/responsive-sidebars.scss */
+  #head-back {
+    height: 30em;
+  }
+}
+@media all and (max-width: 640px) {
+  /* line 260, ../../sass/layouts/responsive-sidebars.scss */
+  #block-views-frontpage-slideshow-block .views-field-title {
+    max-width: 100% !important;
+    width: 100%;
+  }
+  /* line 264, ../../sass/layouts/responsive-sidebars.scss */
+  #block-views-frontpage-slideshow-block .views-field-body {
+    width: 100%;
+    max-width: 100% !important;
+  }
+  /* line 268, ../../sass/layouts/responsive-sidebars.scss */
+  #block-views-frontpage-slideshow-block .views-field-field-image {
+    position: relative !important;
+    width: 99% !important;
+  }
+
+  /* line 273, ../../sass/layouts/responsive-sidebars.scss */
+  .front #main {
+    margin-top: 2em;
   }
 }

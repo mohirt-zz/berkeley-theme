@@ -31,7 +31,7 @@
 			"file": "sass/pages.scss",
 			"settings":
 			{
-				"buffer_size": 4963,
+				"buffer_size": 5667,
 				"line_ending": "Unix"
 			}
 		},
@@ -39,7 +39,7 @@
 			"file": "sass/layouts/responsive-sidebars.scss",
 			"settings":
 			{
-				"buffer_size": 5454,
+				"buffer_size": 6574,
 				"line_ending": "Unix"
 			}
 		},
@@ -47,7 +47,7 @@
 			"file": "sass/blocks.scss",
 			"settings":
 			{
-				"buffer_size": 3206,
+				"buffer_size": 3204,
 				"line_ending": "Unix"
 			}
 		},
@@ -63,7 +63,7 @@
 			"file": "sass/views-styles.scss",
 			"settings":
 			{
-				"buffer_size": 2081,
+				"buffer_size": 2113,
 				"line_ending": "Unix"
 			}
 		},
@@ -175,6 +175,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"main",
+			"table",
+			"pager",
+			"20%",
 			"News",
 			"Baskerville",
 			"linear",
@@ -257,15 +261,15 @@
 					"file": "sass/pages.scss",
 					"settings":
 					{
-						"buffer_size": 4963,
+						"buffer_size": 5667,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4480,
-								4480
+								841,
+								841
 							]
 						],
 						"settings":
@@ -275,7 +279,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 3691.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -285,15 +289,15 @@
 					"file": "sass/layouts/responsive-sidebars.scss",
 					"settings":
 					{
-						"buffer_size": 5454,
+						"buffer_size": 6574,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4996,
-								4996
+								5982,
+								5982
 							]
 						],
 						"settings":
@@ -303,7 +307,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 2551.0,
+						"translation.y": 3729.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -313,15 +317,15 @@
 					"file": "sass/blocks.scss",
 					"settings":
 					{
-						"buffer_size": 3206,
+						"buffer_size": 3204,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3130,
-								3130
+								3204,
+								3204
 							]
 						],
 						"settings":
@@ -331,7 +335,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1525.0,
+						"translation.y": 1487.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -369,15 +373,15 @@
 					"file": "sass/views-styles.scss",
 					"settings":
 					{
-						"buffer_size": 2081,
+						"buffer_size": 2113,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1923,
-								1923
+								1950,
+								1950
 							]
 						],
 						"settings":
@@ -387,7 +391,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 537.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
