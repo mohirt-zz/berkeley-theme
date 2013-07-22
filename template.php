@@ -227,12 +227,12 @@ function berkeley_labs_preprocess_block(&$variables, $hook) {
 /*
  * Open Type Fonts
 */
-function berkeley_labs_preprocess_html(&$variables) {
+function berkeley_theme_preprocess_html(&$variables) {
   drupal_add_css('http://openfontlibrary.org/face/open-baskerville', array('group' => CSS_THEME, 'preprocess' => FALSE));
   drupal_add_css('http://openfontlibrary.org/face/news-cycle', array('group' => CSS_THEME, 'preprocess' => FALSE));
 }
 
 /* frontpage remove read more */
-function berkeley_labs_preprocess_node(&$variables) {
+function berkeley_theme_preprocess_node(&$variables) {
   unset($variables['content']['links']['node']);
 }
