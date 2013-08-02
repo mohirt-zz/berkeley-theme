@@ -492,7 +492,7 @@ form {
 
 fieldset {
   border-color: #c0c0c0;
-  margin: 0 2px;
+  margin: 1.5em 0;
   /* Apply borders and padding that keep the vertical rhythm. */
   @include apply-side-rhythm-border(top,    $width: 1px, $lines: 0.35);
   @include apply-side-rhythm-border(bottom, $width: 1px, $lines: 0.65);

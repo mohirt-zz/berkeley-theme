@@ -50,10 +50,14 @@ body {
 #head-back {
   background: url("../images/bg-pattern.png") repeat scroll 0 0 transparent;
   border-bottom: 2px solid #E9F1EA;
-  height: 32.6em;
+  height: 10.4em;
   position: absolute;
   width: 100%;
   z-index: -1;
+}
+
+.front #head-back {
+  height: 32.6em;
 }
 
 #header {
@@ -148,11 +152,21 @@ h3.title { /* Comment title */
 }
 
 tr.even { /* Some tables have rows marked even or odd. */
-  /* background-color: #eee; */ /* Drupal core uses a #eee background */
+  background-color: #EFEFEF;
 }
 
 tr.odd {
-  /* background-color: #eee; */ /* Drupal core uses a #eee background */
+  background-color: #E4E4E4;
+}
+
+tr td, tr th {
+  border: 1px solid #FFFFFF;
+  padding: 4px 9px;
+  text-align: left;
+}
+
+thead {
+  background-color: #777;
 }
 
 div.messages { /* Important messages (status, warning, and error) for the user. See also the declarations in messages.css. */
@@ -235,10 +249,10 @@ ul.pager {
   padding: 0.5em 0;
 }
 #islandora-solr-top {
-  float: left;
   position: relative;
-  top: 1em;
+  top: 2.6em;
   z-index: 50;
+  padding: 0 8px;
 }
 
 .feed-icon { /* The link to the RSS or Atom feed for the current list of content */
