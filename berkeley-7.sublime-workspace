@@ -31,15 +31,7 @@
 			"file": "sass/pages.scss",
 			"settings":
 			{
-				"buffer_size": 5667,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "sass/layouts/responsive-sidebars.scss",
-			"settings":
-			{
-				"buffer_size": 6574,
+				"buffer_size": 5990,
 				"line_ending": "Unix"
 			}
 		},
@@ -47,7 +39,7 @@
 			"file": "sass/blocks.scss",
 			"settings":
 			{
-				"buffer_size": 3204,
+				"buffer_size": 3183,
 				"line_ending": "Unix"
 			}
 		},
@@ -55,7 +47,7 @@
 			"file": "sass/normalize.scss",
 			"settings":
 			{
-				"buffer_size": 14384,
+				"buffer_size": 14386,
 				"line_ending": "Unix"
 			}
 		},
@@ -63,7 +55,7 @@
 			"file": "sass/views-styles.scss",
 			"settings":
 			{
-				"buffer_size": 2113,
+				"buffer_size": 2132,
 				"line_ending": "Unix"
 			}
 		},
@@ -71,7 +63,7 @@
 			"file": "templates/page.tpl.php",
 			"settings":
 			{
-				"buffer_size": 6907,
+				"buffer_size": 6945,
 				"line_ending": "Unix"
 			}
 		},
@@ -87,7 +79,15 @@
 			"file": "template.php",
 			"settings":
 			{
-				"buffer_size": 10065,
+				"buffer_size": 10068,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "sass/layouts/responsive-sidebars.scss",
+			"settings":
+			{
+				"buffer_size": 6466,
 				"line_ending": "Unix"
 			}
 		}
@@ -175,6 +175,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"menu",
+			"leica",
+			"field",
 			"main",
 			"table",
 			"pager",
@@ -253,7 +256,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 7,
 			"sheets":
 			[
 				{
@@ -261,15 +264,43 @@
 					"file": "sass/pages.scss",
 					"settings":
 					{
-						"buffer_size": 5667,
+						"buffer_size": 5990,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								841,
-								841
+								1033,
+								1033
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 893.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "sass/blocks.scss",
+					"settings":
+					{
+						"buffer_size": 3183,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								421,
+								421
 							]
 						],
 						"settings":
@@ -285,47 +316,19 @@
 					"type": "text"
 				},
 				{
-					"buffer": 1,
-					"file": "sass/layouts/responsive-sidebars.scss",
-					"settings":
-					{
-						"buffer_size": 6574,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								5982,
-								5982
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/SCSS/SCSS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 3729.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
 					"buffer": 2,
-					"file": "sass/blocks.scss",
+					"file": "sass/normalize.scss",
 					"settings":
 					{
-						"buffer_size": 3204,
+						"buffer_size": 14386,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3204,
-								3204
+								4349,
+								4349
 							]
 						],
 						"settings":
@@ -335,25 +338,25 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1487.0,
+						"translation.y": 2667.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 3,
-					"file": "sass/normalize.scss",
+					"file": "sass/views-styles.scss",
 					"settings":
 					{
-						"buffer_size": 14384,
+						"buffer_size": 2132,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4364,
-								4364
+								1356,
+								1356
 							]
 						],
 						"settings":
@@ -363,53 +366,25 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 2201.0,
+						"translation.y": 1244.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 4,
-					"file": "sass/views-styles.scss",
-					"settings":
-					{
-						"buffer_size": 2113,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1950,
-								1950
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/SCSS/SCSS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 537.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
 					"file": "templates/page.tpl.php",
 					"settings":
 					{
-						"buffer_size": 6907,
+						"buffer_size": 6945,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3306,
-								3306
+								5583,
+								5583
 							]
 						],
 						"settings":
@@ -419,13 +394,13 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 927.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 6,
+					"buffer": 5,
 					"file": "sass/nodes.scss",
 					"settings":
 					{
@@ -453,19 +428,19 @@
 					"type": "text"
 				},
 				{
-					"buffer": 7,
+					"buffer": 6,
 					"file": "template.php",
 					"settings":
 					{
-						"buffer_size": 10065,
+						"buffer_size": 10068,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								9655,
-								9655
+								0,
+								0
 							]
 						],
 						"settings":
@@ -475,7 +450,35 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 3007.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "sass/layouts/responsive-sidebars.scss",
+					"settings":
+					{
+						"buffer_size": 6466,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2261,
+								2261
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1235.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

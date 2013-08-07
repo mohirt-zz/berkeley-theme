@@ -63,12 +63,19 @@ body {
 #header {
 }
 
+#logo-back {
+  background: #0F4058;
+  height: 7.3em;
+  width: 100%;
+  position: absolute;
+}
+
 #logo { /* Wrapping link for logo */
   float: left;
   margin: 0;
-  padding: 0;
-  background: #17405B;
-  width: 100%;
+  padding: 0.5em 0 1em;
+  position: relative;
+  z-index: 100;
 
   img {
     vertical-align: bottom;
@@ -269,11 +276,15 @@ ul.pager {
  */
 
 .sidebar {
-    border: 2px solid #E9F1EA;
-    background: #F3F3F3;
   h2.block-title {
     margin-top: 1em;
     margin-bottom: 0;
+    text-transform: uppercase;
+    letter-spacing: 0.5pt;
+    font-size: 95%;
+    font-weight: bold !important;
+    border-bottom: 1px solid rgba(204, 204, 204, 0.3);
+    padding-bottom: 0.5em;
   }
   ul {
     padding: 0 0.5em;

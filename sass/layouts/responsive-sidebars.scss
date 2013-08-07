@@ -88,9 +88,9 @@ $zen-auto-include-item-base: false;
     }
   }
   #navigation {
-    position: absolute;
-    top: 0; /* Move the navbar up inside #main's padding. */
-    height: 3em;
+    height: 2.5em;
+    float: left;
+    background: #fff;
     width: $zen-grid-width;
   }
 }
@@ -242,7 +242,7 @@ $zen-auto-include-item-base: false;
     height: 25em !important;
   }
   .front #main {
-    margin-top: 5em;
+    margin-top: 11em;
   }
 }
 

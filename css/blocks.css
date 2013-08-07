@@ -27,162 +27,161 @@
 .block h2.block-title {
   /* Block title */
   color: #17405B;
-  font-size: 125%;
   font-weight: normal;
   margin-bottom: 1em;
 }
-/* line 31, ../sass/blocks.scss */
+/* line 30, ../sass/blocks.scss */
 .block ul {
   padding: 0 1em;
 }
 
-/* line 37, ../sass/blocks.scss */
+/* line 36, ../sass/blocks.scss */
 #block-aggregator-category-1 {
   /* Block for the latest news items in the first category */
 }
 
-/* line 40, ../sass/blocks.scss */
+/* line 39, ../sass/blocks.scss */
 #block-aggregator-feed-1 {
   /* Block for the latest news items in the first feed */
 }
 
-/* line 43, ../sass/blocks.scss */
+/* line 42, ../sass/blocks.scss */
 #block-block-1 {
   /* First block created with "Add block" link */
 }
 
-/* line 46, ../sass/blocks.scss */
+/* line 45, ../sass/blocks.scss */
 #block-blog-recent {
   /* "Recent blog posts" block */
 }
 
-/* line 49, ../sass/blocks.scss */
+/* line 48, ../sass/blocks.scss */
 #block-book-navigation {
   /* "Book navigation" block for the current book's table of contents */
 }
 
-/* line 52, ../sass/blocks.scss */
+/* line 51, ../sass/blocks.scss */
 #block-comment-recent {
   /* "Recent comments" block */
 }
 
-/* line 55, ../sass/blocks.scss */
+/* line 54, ../sass/blocks.scss */
 #block-forum-active {
   /* "Active forum topics" block */
 }
 
-/* line 58, ../sass/blocks.scss */
+/* line 57, ../sass/blocks.scss */
 #block-forum-new {
   /* "New forum topics" block */
 }
 
-/* line 61, ../sass/blocks.scss */
+/* line 60, ../sass/blocks.scss */
 #block-locale-language {
   /* Language switcher block */
 }
 
-/* line 64, ../sass/blocks.scss */
+/* line 63, ../sass/blocks.scss */
 #block-menu-menu-NAME {
   /* Custom menu block */
 }
 
-/* line 67, ../sass/blocks.scss */
+/* line 66, ../sass/blocks.scss */
 #block-node-recent {
   /* "Recent content" block */
 }
 
-/* line 70, ../sass/blocks.scss */
+/* line 69, ../sass/blocks.scss */
 #block-node-syndicate {
   /* "Syndicate" block for primary RSS feed; see also page.css's .feed-icon */
 }
 
-/* line 73, ../sass/blocks.scss */
+/* line 72, ../sass/blocks.scss */
 #block-poll-recent {
   /* "Most recent poll" block */
 }
 
-/* line 76, ../sass/blocks.scss */
+/* line 75, ../sass/blocks.scss */
 #block-profile-author-information {
   /* "Author information" block for the profile of the page's author */
 }
 
-/* line 79, ../sass/blocks.scss */
+/* line 78, ../sass/blocks.scss */
 #block-search-form {
   /* "Search form" block */
 }
 
-/* line 82, ../sass/blocks.scss */
+/* line 81, ../sass/blocks.scss */
 #block-shortcut-shortcuts {
   /* "Shortcuts" block */
 }
 
-/* line 85, ../sass/blocks.scss */
+/* line 84, ../sass/blocks.scss */
 #block-statistics-popular {
   /* "Popular content" block */
 }
 
-/* line 88, ../sass/blocks.scss */
+/* line 87, ../sass/blocks.scss */
 #block-system-main-menu {
   /* "Main menu" block */
 }
 
-/* line 91, ../sass/blocks.scss */
+/* line 90, ../sass/blocks.scss */
 #block-system-management {
   /* "Management" block for Drupal management menu */
 }
 
-/* line 94, ../sass/blocks.scss */
+/* line 93, ../sass/blocks.scss */
 #block-system-navigation {
   /* "Navigation" block for Drupal navigation menu */
 }
 
-/* line 97, ../sass/blocks.scss */
+/* line 96, ../sass/blocks.scss */
 #block-system-user-menu {
   /* "User menu" block for Drupal user menu */
 }
 
-/* line 100, ../sass/blocks.scss */
+/* line 99, ../sass/blocks.scss */
 #block-system-help {
   /* "System help" block */
 }
 
-/* line 103, ../sass/blocks.scss */
+/* line 102, ../sass/blocks.scss */
 #block-system-main {
   /* "Main page content" block */
 }
 
-/* line 106, ../sass/blocks.scss */
+/* line 105, ../sass/blocks.scss */
 #block-system-powered-by {
   /* "Powered by Drupal" block */
 }
 
-/* line 109, ../sass/blocks.scss */
+/* line 108, ../sass/blocks.scss */
 #block-user-login {
   /* "User login form" block */
 }
 
-/* line 112, ../sass/blocks.scss */
+/* line 111, ../sass/blocks.scss */
 #block-user-new {
   /* "Who's new" block for a list of the newest users */
 }
 
-/* line 115, ../sass/blocks.scss */
+/* line 114, ../sass/blocks.scss */
 #block-user-online {
   /* "Who's online" block for a list of the online users */
 }
 
 /*Islandora Blocks*/
-/* line 120, ../sass/blocks.scss */
+/* line 119, ../sass/blocks.scss */
 ul.islandora-solr-facet-pages-list {
   padding: 0;
   margin: 0.5em 0;
 }
-/* line 123, ../sass/blocks.scss */
+/* line 122, ../sass/blocks.scss */
 ul.islandora-solr-facet-pages-list li {
   list-style: none;
   margin-bottom: 0.2em;
 }
-/* line 126, ../sass/blocks.scss */
+/* line 125, ../sass/blocks.scss */
 ul.islandora-solr-facet-pages-list li a {
   background-color: #EDEDED;
   border: 1px solid gainsboro;
@@ -196,22 +195,22 @@ ul.islandora-solr-facet-pages-list li a {
   text-shadow: 1px 1px 0 white;
   width: 99%;
 }
-/* line 139, ../sass/blocks.scss */
+/* line 138, ../sass/blocks.scss */
 ul.islandora-solr-facet-pages-list li a:hover {
   background-color: #DFDFDF;
   box-shadow: 0 -1px 0 0 #cccccc;
 }
 
 /* Islandora Search blocks */
-/* line 149, ../sass/blocks.scss */
+/* line 148, ../sass/blocks.scss */
 #islandora-solr-advanced-search-form .form-item {
   display: inline !important;
 }
-/* line 152, ../sass/blocks.scss */
+/* line 151, ../sass/blocks.scss */
 #islandora-solr-advanced-search-form .form-text {
   width: 37%;
 }
-/* line 155, ../sass/blocks.scss */
+/* line 154, ../sass/blocks.scss */
 #islandora-solr-advanced-search-form .islandora-solr-advanced-controls {
   margin-top: 0.5em;
 }

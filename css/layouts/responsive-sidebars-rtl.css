@@ -81,10 +81,9 @@
 
   /* line 90, ../../sass/layouts/responsive-sidebars.scss */
   #navigation {
-    position: absolute;
-    top: 0;
-    /* Move the navbar up inside #main's padding. */
-    height: 3em;
+    height: 2.5em;
+    float: left;
+    background: #fff;
     width: 100%;
   }
 }
@@ -289,7 +288,7 @@
 
   /* line 244, ../../sass/layouts/responsive-sidebars.scss */
   .front #main {
-    margin-top: 5em;
+    margin-top: 11em;
   }
 }
 @media all and (max-width: 945px) {
