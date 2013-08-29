@@ -31,7 +31,7 @@
 			"file": "sass/pages.scss",
 			"settings":
 			{
-				"buffer_size": 5990,
+				"buffer_size": 6031,
 				"line_ending": "Unix"
 			}
 		},
@@ -47,7 +47,7 @@
 			"file": "sass/normalize.scss",
 			"settings":
 			{
-				"buffer_size": 14386,
+				"buffer_size": 14908,
 				"line_ending": "Unix"
 			}
 		},
@@ -76,18 +76,18 @@
 			}
 		},
 		{
-			"file": "template.php",
-			"settings":
-			{
-				"buffer_size": 10068,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "sass/layouts/responsive-sidebars.scss",
 			"settings":
 			{
 				"buffer_size": 6466,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "theme-settings.php",
+			"settings":
+			{
+				"buffer_size": 370,
 				"line_ending": "Unix"
 			}
 		}
@@ -124,6 +124,9 @@
 	},
 	"file_history":
 	[
+		"/Volumes/Berkeley Vagrant/themes/berkeley_theme/theme-settings.php",
+		"/Volumes/Berkeley Vagrant/themes/berkeley_theme/template.php",
+		"/Volumes/Berkeley Vagrant/themes/berkeley_theme/berkeley_theme.info",
 		"/Volumes/Berkeley Vagrant/themes/berkeley-labs/templates/node.tpl.php",
 		"/Volumes/Berkeley Vagrant/themes/berkeley-labs/berkeley_labs.info",
 		"/Volumes/UCLA EC2/themes/uclalib/sass/_base.scss",
@@ -264,15 +267,15 @@
 					"file": "sass/pages.scss",
 					"settings":
 					{
-						"buffer_size": 5990,
+						"buffer_size": 6031,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1033,
-								1033
+								719,
+								719
 							]
 						],
 						"settings":
@@ -282,7 +285,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 893.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -320,15 +323,15 @@
 					"file": "sass/normalize.scss",
 					"settings":
 					{
-						"buffer_size": 14386,
+						"buffer_size": 14908,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4349,
-								4349
+								6231,
+								6231
 							]
 						],
 						"settings":
@@ -338,7 +341,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 2667.0,
+						"translation.y": 3405.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -429,23 +432,23 @@
 				},
 				{
 					"buffer": 6,
-					"file": "template.php",
+					"file": "sass/layouts/responsive-sidebars.scss",
 					"settings":
 					{
-						"buffer_size": 10068,
+						"buffer_size": 6466,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								721,
+								721
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
@@ -457,28 +460,26 @@
 				},
 				{
 					"buffer": 7,
-					"file": "sass/layouts/responsive-sidebars.scss",
+					"file": "theme-settings.php",
 					"settings":
 					{
-						"buffer_size": 6466,
+						"buffer_size": 370,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2261,
-								2261
+								325,
+								325
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/SCSS/SCSS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/PHP/PHP.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 1235.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
