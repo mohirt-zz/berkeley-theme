@@ -51,7 +51,7 @@ body {
 /* line 55, ../sass/pages.scss */
 #head-back {
   background: url("../images/bg-pattern.png") repeat scroll 0 0 transparent;
-  border-bottom: 2px solid #e9f1ea;
+  border-bottom: 2px solid #E9F1EA;
   height: 10.4em;
   position: absolute;
   width: 100%;
@@ -178,7 +178,7 @@ tr.odd {
 
 /* line 174, ../sass/pages.scss */
 tr td, tr th {
-  border: 1px solid white;
+  border: 1px solid #FFFFFF;
   padding: 4px 9px;
   text-align: left;
 }
@@ -286,7 +286,7 @@ span.field-label {
 /* line 248, ../sass/pages.scss */
 ul.pager li.pager-current {
   background: none repeat scroll 0 0 #ececec;
-  border: 1px solid #35425f;
+  border: 1px solid #35425F;
   color: #35425F;
 }
 
@@ -295,8 +295,8 @@ ul.pager li.pager-current {
   position: relative;
   top: -1.3em;
   background: #F3F3F3;
-  border-bottom: 1px solid #e9f1ea;
-  border-top: 1px solid #e9f1ea;
+  border-bottom: 1px solid #E9F1EA;
+  border-top: 1px solid #E9F1EA;
   padding: 0.5em 0;
 }
 
