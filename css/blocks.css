@@ -184,21 +184,21 @@ ul.islandora-solr-facet-pages-list li {
 /* line 125, ../sass/blocks.scss */
 ul.islandora-solr-facet-pages-list li a {
   background-color: #EDEDED;
-  border: 1px solid gainsboro;
+  border: 1px solid #DCDCDC;
   border-radius: 4px 4px 4px 4px;
-  box-shadow: 0 -1px 0 0 #cccccc inset;
+  box-shadow: 0 -1px 0 0 #CCCCCC inset;
   display: inline-block;
   font-weight: bold;
   line-height: 2.5em;
   text-align: center;
   text-decoration: none;
-  text-shadow: 1px 1px 0 white;
+  text-shadow: 1px 1px 0 #FFFFFF;
   width: 99%;
 }
 /* line 138, ../sass/blocks.scss */
 ul.islandora-solr-facet-pages-list li a:hover {
   background-color: #DFDFDF;
-  box-shadow: 0 -1px 0 0 #cccccc;
+  box-shadow: 0 -1px 0 0 #CCCCCC;
 }
 
 /* Islandora Search blocks */
