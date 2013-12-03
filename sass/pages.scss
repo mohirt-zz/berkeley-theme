@@ -343,3 +343,15 @@ table.islandora-bookmark-solr-results {
     }
   }
 }
+
+/* Other stuff */
+
+ul.tips, div.description, .form-item div.description, .formtips-processed, form fieldset .formtips-processed {
+  background-color: #666;
+  color: #fff;
+  font-size: 100%;
+  line-height: 1.5em;
+  margin: 5px 0;
+  padding: 5px;
+  border: 1px solid #C0C0C0;
+}
