@@ -344,6 +344,14 @@ table.islandora-bookmark-solr-results {
   }
 }
 
+/* ALS Workflow */
+
+#islandora-ingest-form {
+  .form-type-radio, .form-type-checkbox {
+    margin: 0.25em 0;
+  }
+}
+
 /* Other stuff */
 
 ul.tips, div.description, .form-item div.description, .formtips-processed, form fieldset .formtips-processed {
