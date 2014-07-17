@@ -253,8 +253,6 @@ ul.pager {
 }
 
 .not-front .item-list .pager {
-  position: relative;
-  top: -1.3em;
   background: #F3F3F3;
   border-bottom: 1px solid #E9F1EA;
   border-top: 1px solid #E9F1EA;
@@ -262,9 +260,9 @@ ul.pager {
 }
 #islandora-solr-top {
   position: relative;
-  top: 2.6em;
+  top: 0.75em;
   z-index: 50;
-  padding: 0 8px;
+  padding: 0 2px;
 }
 
 .feed-icon { /* The link to the RSS or Atom feed for the current list of content */
